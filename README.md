@@ -10,7 +10,7 @@ This folder is the complete Market Movers website as plain HTML. No special soft
 | `es.html` | Main page (Spanish) |
 | `story.html` | Santilopo's story (English) |
 | `historia.html` | Santilopo's story (Spanish) |
-| `images/` | Photos and payout / eval certificates |
+| `*.jpg` | Photos and payout / eval certificates |
 | `PROJECT-BRIEF.md` | Everything decided so far: offer, pricing, mentors, course, to-do list |
 
 ## How to look at it
@@ -29,7 +29,7 @@ Rule: **any change to `index.html` should also be made in `es.html`** (and `stor
 **Option B: edit by hand**
 Open the file in any text editor (VS Code is free). Text is written directly in the HTML, so you can search for a sentence and change it.
 - Gold accent color: `#E3B04B` (search and replace to change it everywhere)
-- Images: put new ones in `images/` and point to them as `images/your-file.jpg`
+- Images: upload new ones next to the pages and point to them as `your-file.jpg`
 
 ## How to put it online (free)
 1. Go to **app.netlify.com/drop**.
