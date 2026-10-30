@@ -10,6 +10,8 @@ This folder is the complete Market Movers website as plain HTML. No special soft
 | `es.html` | Main page (Spanish) |
 | `story.html` | Santilopo's story (English) |
 | `historia.html` | Santilopo's story (Spanish) |
+| `huncho-story.html` | Huncho's full story (English) |
+| `huncho-historia.html` | Huncho's full story (Spanish) |
 | `*.jpg` | Photos and payout / eval certificates |
 | `PROJECT-BRIEF.md` | Everything decided so far: offer, pricing, mentors, course, to-do list |
 
@@ -24,7 +26,7 @@ Double-click `index.html`. It opens in your browser.
 3. Ask for the change, e.g. *"Change the founding price from $300 to $350 everywhere and give me the full updated file."*
 4. Save the new file over the old one (same file name).
 
-Rule: **any change to `index.html` should also be made in `es.html`** (and `story.html` ↔ `historia.html`), so English and Spanish stay the same.
+Rule: **any change to `index.html` should also be made in `es.html`** (and `story.html` ↔ `historia.html`, `huncho-story.html` ↔ `huncho-historia.html`), so English and Spanish stay the same.
 
 **Option B: edit by hand**
 Open the file in any text editor (VS Code is free). Text is written directly in the HTML, so you can search for a sentence and change it.
@@ -47,5 +49,5 @@ If both Santilopo and his friend will edit it, put the folder in a free **GitHub
 - Huncho: https://www.instagram.com/mrktmver/
 
 ## Things still to fill in
-- Huncho's story, photo/video and payout certificates (look for text in [brackets])
+- Huncho's payout certificates (look for text in [brackets])
 - Terms and Privacy pages (footer links are placeholders)
