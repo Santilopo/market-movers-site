@@ -1,0 +1,322 @@
+<!doctype html>
+<!-- Market Movers website. Exported from the Claude design on 2026-10-30.
+     Edit text directly in this file. Accent color: #E3B04B. Images are in the images/ folder. -->
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Market Movers — Futures Trading Course</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,600;12..96,800&amp;family=Instrument+Sans:wght@400;500;600&amp;family=JetBrains+Mono:wght@400;500&amp;display=swap" rel="stylesheet">
+<style>
+body{margin:0;background:#0C0D0B}
+a{color:#F0ECE0}a:hover{color:#FFFFFF}
+*{box-sizing:border-box}
+
+/* FAQ accordion (plain HTML, no JavaScript) */
+details.faq{border-bottom:1px solid rgba(240,236,224,0.14)}
+details.faq summary{list-style:none;cursor:pointer;display:flex;align-items:center;gap:20px;padding:24px 0;min-height:64px;font-size:18px;font-weight:600;color:#F0ECE0}
+details.faq summary::-webkit-details-marker{display:none}
+.faq-num{font-family:'JetBrains Mono',monospace;font-size:13px;font-weight:400;color:#A9A596;width:28px}
+.faq-q{flex:1}
+.faq-icon{font-family:'JetBrains Mono',monospace;font-size:20px;color:#E3B04B;transition:transform .2s}
+details.faq[open] .faq-icon{transform:rotate(45deg)}
+.faq-a{margin:0;padding:0 0 26px 48px;color:#BDB8A8;font-size:16px;line-height:1.7;max-width:760px}
+html{scroll-behavior:smooth}
+</style>
+</head>
+<body>
+<div style="background: #0C0D0B; color: #F0ECE0; font-family: 'Instrument Sans', system-ui, sans-serif; min-height: 100vh">
+
+<!-- NAV -->
+<header style="border-bottom: 1px solid rgba(240,236,224,0.1)">
+<nav aria-label="Main" style="max-width: 1320px; margin: 0 auto; padding: 18px 32px; display: flex; flex-wrap: wrap; align-items: center; justify-content: space-between; gap: 16px">
+<a href="#top" style="display: flex; align-items: center; gap: 12px; text-decoration: none; color: #F0ECE0">
+<span aria-hidden="true" style="width: 40px; height: 40px; border-radius: 4px; background: #E3B04B; color: #14120C; display: flex; align-items: center; justify-content: center; font-family: 'Bricolage Grotesque', sans-serif; font-weight: 800; font-size: 16px; letter-spacing: -0.04em">MM</span>
+<span style="font-family: 'Bricolage Grotesque', sans-serif; font-weight: 800; font-size: 24px; letter-spacing: -0.02em">Market Movers</span>
+</a>
+<div style="display: flex; flex-wrap: wrap; align-items: center; gap: 8px 28px; font-size: 15px">
+<a href="#mentors" style="text-decoration: none; color: #CFCABB">Mentors</a>
+<a href="#curriculum" style="text-decoration: none; color: #CFCABB">Curriculum</a>
+<a href="#pricing" style="text-decoration: none; color: #CFCABB">Pricing</a>
+<a href="#faq" style="text-decoration: none; color: #CFCABB">FAQ</a>
+<a href="#login" style="text-decoration: none; color: #CFCABB">Log in</a>
+<a href="es.html" lang="es" style="text-decoration: none; color: #F0ECE0; font-weight: 600; border: 1px solid rgba(240,236,224,0.3); border-radius: 4px; padding: 10px 14px; min-height: 44px; display: inline-flex; align-items: center">Página en español</a>
+<a href="https://whop.com/market-movers-9d17/market-movers-huncho-santilopo" style="text-decoration: none; background: #E3B04B; color: #14120C; font-weight: 600; padding: 12px 20px; border-radius: 4px; min-height: 44px; display: inline-flex; align-items: center">Join · $300</a>
+</div>
+</nav>
+<div aria-label="Markets we trade" style="border-top: 1px solid rgba(240,236,224,0.1); overflow-x: auto">
+<div style="max-width: 1320px; margin: 0 auto; padding: 10px 32px; display: flex; gap: 36px; font-family: 'JetBrains Mono', monospace; font-size: 12px; letter-spacing: 0.08em; color: #A9A596; white-space: nowrap">
+<span>MARKETS WE TRADE</span><span style="color: #F0ECE0">NQ</span><span style="color: #F0ECE0">MNQ</span><span style="color: #F0ECE0">ES</span><span style="color: #F0ECE0">MES</span><span style="color: #F0ECE0">BTC</span><span style="color: #F0ECE0">GOLD</span><span style="color: #F0ECE0">SILVER</span>
+</div>
+</div>
+</header>
+
+<main id="top">
+
+<!-- HERO -->
+<section style="max-width: 1320px; margin: 0 auto; padding: 72px 32px 0; display: flex; flex-wrap: wrap; gap: 56px; align-items: center">
+<div style="flex: 1 1 520px; min-width: 0; display: flex; flex-direction: column; gap: 28px">
+<p style="margin: 0; font-family: 'JetBrains Mono', monospace; font-size: 13px; color: #E3B04B">&gt; founding enrollment · first 50 members</p>
+<h1 style="margin: 0; font-family: 'Bricolage Grotesque', sans-serif; font-weight: 800; font-size: clamp(44px, 6.4vw, 92px); line-height: 0.96; letter-spacing: -0.045em">Two mentors. One playbook. One team.</h1>
+<p style="margin: 0; font-size: 19px; line-height: 1.6; color: #BDB8A8; max-width: 560px">The Market Movers futures course, taught by Huncho and Santilopo. Two strategies: one built to pass prop firm evals and get paid out, and one for trading your own live account. Learn from both mentors.</p>
+<div style="display: flex; flex-wrap: wrap; gap: 12px">
+<a href="#pricing" style="text-decoration: none; background: #E3B04B; color: #14120C; font-weight: 600; font-size: 16px; padding: 16px 26px; border-radius: 4px; min-height: 52px; display: inline-flex; align-items: center">Become a founding member · $300</a>
+<a href="#curriculum" style="text-decoration: none; color: #F0ECE0; font-weight: 600; font-size: 16px; padding: 16px 26px; border-radius: 4px; border: 1px solid rgba(240,236,224,0.3); min-height: 52px; display: inline-flex; align-items: center">See what you'll learn</a>
+</div>
+<div style="display: flex; flex-wrap: wrap; gap: 8px 24px; font-size: 15px">
+<a href="https://discord.com/invite/D5mgzZWaJ" style="color: #CFCABB; min-height: 44px; display: inline-flex; align-items: center">Watch us trade live, free →</a>
+</div>
+</div>
+
+<aside aria-label="Live session schedule" style="flex: 1 1 420px; min-width: 0; border: 1px solid rgba(240,236,224,0.14); border-radius: 8px; background: #121310; padding: 28px 32px; display: flex; flex-direction: column; gap: 6px"><div style="display: flex; justify-content: space-between; align-items: center; gap: 12px; flex-wrap: wrap; padding-bottom: 14px"><span style="font-family: 'JetBrains Mono', monospace; font-size: 13px; color: #E3B04B">● LIVE IN MARKET MOVERS · FREE</span><span style="font-family: 'JetBrains Mono', monospace; font-size: 12px; color: #A9A596">EVERY SESSION</span></div><h2 style="margin: 0 0 8px; font-family: 'Bricolage Grotesque', sans-serif; font-size: 30px; font-weight: 800; letter-spacing: -0.03em; line-height: 1.1">We trade every session. Live.</h2><ul style="margin: 0; padding: 0; list-style: none"><li style="display: flex; align-items: center; justify-content: space-between; gap: 16px; padding: 20px 0; border-top: 1px solid rgba(240,236,224,0.1)"><div style="display: flex; flex-direction: column; gap: 4px"><span style="font-family: 'Bricolage Grotesque', sans-serif; font-size: 22px; font-weight: 600; letter-spacing: -0.02em">New York open</span></div><span style="font-family: 'JetBrains Mono', monospace; font-size: 18px; color: #F0ECE0; white-space: nowrap">9:30 AM ET</span></li><li style="display: flex; align-items: center; justify-content: space-between; gap: 16px; padding: 20px 0; border-top: 1px solid rgba(240,236,224,0.1)"><div style="display: flex; flex-direction: column; gap: 4px"><span style="font-family: 'Bricolage Grotesque', sans-serif; font-size: 22px; font-weight: 600; letter-spacing: -0.02em">London open</span></div><span style="font-family: 'JetBrains Mono', monospace; font-size: 18px; color: #F0ECE0; white-space: nowrap">3:00 AM ET</span></li><li style="display: flex; align-items: center; justify-content: space-between; gap: 16px; padding: 20px 0; border-top: 1px solid rgba(240,236,224,0.1)"><div style="display: flex; flex-direction: column; gap: 4px"><span style="font-family: 'Bricolage Grotesque', sans-serif; font-size: 22px; font-weight: 600; letter-spacing: -0.02em">Asia open</span></div><span style="font-family: 'JetBrains Mono', monospace; font-size: 18px; color: #F0ECE0; white-space: nowrap">7:00 PM ET</span></li><li style="display: flex; align-items: center; justify-content: space-between; gap: 16px; padding: 20px 0; border-top: 1px solid rgba(240,236,224,0.1)"><div style="display: flex; flex-direction: column; gap: 4px"><span style="font-family: 'Bricolage Grotesque', sans-serif; font-size: 22px; font-weight: 600; letter-spacing: -0.02em">Bitcoin</span></div><span style="font-family: 'JetBrains Mono', monospace; font-size: 22px; color: #E3B04B; white-space: nowrap">24/7</span></li></ul><div style="border-top: 1px solid rgba(240,236,224,0.1); padding-top: 16px; display: flex; flex-direction: column; gap: 10px"><span style="font-family: 'JetBrains Mono', monospace; font-size: 12px; color: #A9A596">ANY MARKET, ANY SESSION</span><div style="display: flex; flex-wrap: wrap; gap: 8px"><span style="font-family: 'JetBrains Mono', monospace; font-size: 12px; color: #DDD8C9; border: 1px solid rgba(240,236,224,0.22); border-radius: 3px; padding: 4px 9px">NQ</span><span style="font-family: 'JetBrains Mono', monospace; font-size: 12px; color: #DDD8C9; border: 1px solid rgba(240,236,224,0.22); border-radius: 3px; padding: 4px 9px">MNQ</span><span style="font-family: 'JetBrains Mono', monospace; font-size: 12px; color: #DDD8C9; border: 1px solid rgba(240,236,224,0.22); border-radius: 3px; padding: 4px 9px">ES</span><span style="font-family: 'JetBrains Mono', monospace; font-size: 12px; color: #DDD8C9; border: 1px solid rgba(240,236,224,0.22); border-radius: 3px; padding: 4px 9px">MES</span><span style="font-family: 'JetBrains Mono', monospace; font-size: 12px; color: #DDD8C9; border: 1px solid rgba(240,236,224,0.22); border-radius: 3px; padding: 4px 9px">BTC</span><span style="font-family: 'JetBrains Mono', monospace; font-size: 12px; color: #DDD8C9; border: 1px solid rgba(240,236,224,0.22); border-radius: 3px; padding: 4px 9px">GOLD</span><span style="font-family: 'JetBrains Mono', monospace; font-size: 12px; color: #DDD8C9; border: 1px solid rgba(240,236,224,0.22); border-radius: 3px; padding: 4px 9px">SILVER</span></div></div><a href="https://discord.com/invite/D5mgzZWaJ" style="margin-top: 14px; text-decoration: none; background: #E3B04B; color: #14120C; font-weight: 600; font-size: 16px; padding: 16px 24px; border-radius: 4px; min-height: 52px; display: flex; align-items: center; justify-content: center">Join the next session free</a><p style="margin: 8px 0 0; font-size: 13px; color: #A09C8D; text-align: center">Futures sessions Mon–Fri. Times in US Eastern Time.</p></aside>
+</section>
+
+<!-- STAT ROW -->
+<section aria-label="At a glance" style="max-width: 1320px; margin: 0 auto; padding: 64px 32px 0">
+<div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(220px, 1fr)); border-top: 1px solid rgba(240,236,224,0.14); border-bottom: 1px solid rgba(240,236,224,0.14)">
+<div style="padding: 26px 24px 26px 0"><p style="margin: 0; font-family: 'JetBrains Mono', monospace; font-size: 12px; color: #A9A596">HUNCHO · TRADING EARNINGS</p><p style="margin: 8px 0 0; font-family: 'Bricolage Grotesque', sans-serif; font-size: 40px; font-weight: 800">$50K+</p></div>
+<div style="padding: 26px 24px 26px 0"><p style="margin: 0; font-family: 'JetBrains Mono', monospace; font-size: 12px; color: #A9A596">SANTILOPO · EVALS PASSED</p><p style="margin: 8px 0 0; font-family: 'Bricolage Grotesque', sans-serif; font-size: 40px; font-weight: 800">6 × $25K</p></div>
+<div style="padding: 26px 24px 26px 0"><p style="margin: 0; font-family: 'JetBrains Mono', monospace; font-size: 12px; color: #A9A596">SANTILOPO · VERIFIED PAYOUTS</p><p style="margin: 8px 0 0; font-family: 'Bricolage Grotesque', sans-serif; font-size: 40px; font-weight: 800">$1,848</p></div>
+<div style="padding: 26px 24px 26px 0"><p style="margin: 0; font-family: 'JetBrains Mono', monospace; font-size: 12px; color: #A9A596">LIVE SESSIONS</p><p style="margin: 8px 0 0; font-family: 'Bricolage Grotesque', sans-serif; font-size: 40px; font-weight: 800">Free</p></div>
+</div>
+</section>
+
+<!-- MENTORS -->
+<section id="mentors" style="max-width: 1320px; margin: 0 auto; padding: 120px 32px 0">
+<p style="margin: 0 0 20px; font-family: 'JetBrains Mono', monospace; font-size: 13px; color: #E3B04B">01 — Your mentors</p>
+<h2 style="margin: 0; font-family: 'Bricolage Grotesque', sans-serif; font-weight: 800; font-size: clamp(34px, 4.2vw, 58px); line-height: 1; letter-spacing: -0.04em; max-width: 900px">Two mentors. One team.</h2>
+<p style="margin: 20px 0 0; font-size: 18px; line-height: 1.7; color: #BDB8A8; max-width: 760px">Every member gets the full course and access to both of us. Pick who you'd like as your main mentor, and you can still learn from either one anytime.</p>
+<div style="margin-top: 48px; display: grid; grid-template-columns: repeat(auto-fit, minmax(380px, 1fr)); gap: 24px">
+
+<article style="border-radius: 8px; border: 1px solid rgba(240,236,224,0.14); background: #121310; padding: 32px; display: flex; flex-direction: column; gap: 20px">
+<div style="aspect-ratio: 16 / 10; border-radius: 6px; border: 1px dashed rgba(240,236,224,0.28); background: #161712; display: flex; align-items: center; justify-content: center; color: #A9A596; font-size: 14px">[Huncho photo or intro video]</div>
+<p style="margin: 0; font-family: 'JetBrains Mono', monospace; font-size: 13px; color: #E3B04B">MENTOR</p>
+<h3 style="margin: 0; font-family: 'Bricolage Grotesque', sans-serif; font-size: 40px; font-weight: 800; letter-spacing: -0.04em; line-height: 1">Huncho</h3>
+<a href="https://www.instagram.com/mrktmver/" style="align-self: flex-start; color: #F0ECE0; font-weight: 600; font-size: 15px; display: inline-flex; align-items: center; gap: 8px; min-height: 44px"><svg aria-hidden="true" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><rect x="3" y="3" width="18" height="18" rx="5"></rect><circle cx="12" cy="12" r="4"></circle><circle cx="17.3" cy="6.7" r="1" fill="currentColor" stroke="none"></circle></svg>Follow Huncho on Instagram →</a>
+<p style="margin: 0; font-size: 17px; line-height: 1.7; color: #BDB8A8">Over $50K in trading earnings, with wins recorded live in Market Movers for anyone to watch.</p>
+<p style="margin: 0; font-size: 17px; line-height: 1.7; color: #BDB8A8">[Huncho's story: how he started, what he trades, and what he wants students to walk away with.]</p>
+<div style="display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 1px; background: rgba(240,236,224,0.12); border: 1px solid rgba(240,236,224,0.12); border-radius: 6px; overflow: hidden; margin-top: auto">
+<div style="background: #121310; padding: 16px"><p style="margin: 0; font-family: 'JetBrains Mono', monospace; font-size: 12px; color: #A9A596">TRADING EARNINGS</p><p style="margin: 6px 0 0; font-size: 17px; font-weight: 600">$50K+</p></div>
+<div style="background: #121310; padding: 16px"><p style="margin: 0; font-family: 'JetBrains Mono', monospace; font-size: 12px; color: #A9A596">TRADING SINCE</p><p style="margin: 6px 0 0; font-size: 17px; font-weight: 600">[YEAR]</p></div>
+</div>
+</article>
+
+<article style="border-radius: 8px; border: 1px solid rgba(240,236,224,0.14); background: #121310; padding: 32px; display: flex; flex-direction: column; gap: 20px">
+<img src="images/santi-ocean.jpg" alt="Santilopo on the coast, pointing out toward the open ocean" style="width: 100%; aspect-ratio: 16 / 10; object-fit: cover; object-position: center 30%; border-radius: 6px; display: block">
+<p style="margin: 0; font-family: 'JetBrains Mono', monospace; font-size: 13px; color: #E3B04B">MENTOR</p>
+<h3 style="margin: 0; font-family: 'Bricolage Grotesque', sans-serif; font-size: 40px; font-weight: 800; letter-spacing: -0.04em; line-height: 1">Santilopo</h3>
+<p style="margin: 0; font-family: 'JetBrains Mono', monospace; font-size: 14px; letter-spacing: 0.04em; color: #A9A596"><span style="color: #E3B04B">SANTI</span>ago <span style="color: #E3B04B">LO</span>pez <span style="color: #E3B04B">PO</span>sada</p>
+<p style="margin: 0; display: flex; flex-wrap: wrap; gap: 8px"><span style="font-family: 'JetBrains Mono', monospace; font-size: 12px; letter-spacing: 0.06em; color: #14120C; background: #E3B04B; padding: 5px 10px; border-radius: 3px">MENTORS IN ENGLISH</span><span style="font-family: 'JetBrains Mono', monospace; font-size: 12px; letter-spacing: 0.06em; color: #14120C; background: #E3B04B; padding: 5px 10px; border-radius: 3px" lang="es">Y EN ESPAÑOL</span></p>
+<a href="https://www.youtube.com/@xcom2santi" style="align-self: flex-start; color: #F0ECE0; font-weight: 600; font-size: 15px; display: inline-flex; align-items: center; gap: 8px; min-height: 44px"><svg aria-hidden="true" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><rect x="2.5" y="5" width="19" height="14" rx="4"></rect><path d="M10 9.2 L15 12 L10 14.8 Z" fill="currentColor" stroke="none"></path></svg>Watch Santilopo on YouTube →</a>
+<a href="https://www.instagram.com/xcom2santi/" style="align-self: flex-start; color: #F0ECE0; font-weight: 600; font-size: 15px; display: inline-flex; align-items: center; gap: 8px; min-height: 44px"><svg aria-hidden="true" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><rect x="3" y="3" width="18" height="18" rx="5"></rect><circle cx="12" cy="12" r="4"></circle><circle cx="17.3" cy="6.7" r="1" fill="currentColor" stroke="none"></circle></svg>Follow Santilopo on Instagram →</a>
+<a href="story.html" style="align-self: flex-start; color: #E3B04B; font-weight: 600; font-size: 15px; min-height: 44px; display: inline-flex; align-items: center">Read my full story →</a>
+<p style="margin: 0; font-size: 17px; line-height: 1.7; color: #BDB8A8">I'm Colombian-American. I grew up in a family that didn't have much money but had a lot of love, and the people around me taught me to love the world. I saw the system that keeps the poor poor and makes the rich richer even back in Colombia, but I didn't fully understand it until I came to America and joined the Marine Corps. From my perspective, you were paid enough to live comfortably, but not enough to be free (trust me). So people reenlist because it's the easiest option, and it turns into a cycle of slavery to a government instead of freedom for yourself. That's when I decided I wasn't going to stay stuck. Before I could help anyone, I had to build myself first, so I taught myself everything I could. Trading is one of those things.</p>
+<p style="margin: 0; font-size: 17px; line-height: 1.7; color: #BDB8A8">On September 25, 2026 I failed my first prop firm eval after hitting the loss limit. I didn't quit. If anything, I started grinding harder. I slowly learned how the market actually moves, and since then I've passed 6 $25K evals and received 2 verified payouts from real prop firms. Getting here cost me $5,500: $4,300 in trading courses and $1,200 in evals. Today I don't trade evals anymore: I trade live with my own capital, because I want to build my own progress. The eval strategy is still in the course, and you can see my proof below.</p>
+<p style="margin: 0; font-size: 17px; line-height: 1.7; color: #BDB8A8">Now I want to bring that love back to the people around me by helping them become financially free. That's why I'm part of Market Movers.</p>
+<p style="margin: 0; font-family: 'Bricolage Grotesque', sans-serif; font-size: 20px; font-weight: 600; line-height: 1.4; border-top: 1px solid rgba(240,236,224,0.14); padding-top: 20px">“There's nothing more sad than wasted potential. Live to prove yourself right, not others.”</p>
+<div style="display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 1px; background: rgba(240,236,224,0.12); border: 1px solid rgba(240,236,224,0.12); border-radius: 6px; overflow: hidden; margin-top: auto">
+<div style="background: #121310; padding: 16px"><p style="margin: 0; font-family: 'JetBrains Mono', monospace; font-size: 12px; color: #A9A596">EVALS PASSED</p><p style="margin: 6px 0 0; font-size: 17px; font-weight: 600">6 × $25K</p></div>
+<div style="background: #121310; padding: 16px"><p style="margin: 0; font-family: 'JetBrains Mono', monospace; font-size: 12px; color: #A9A596">PAYOUTS</p><p style="margin: 6px 0 0; font-size: 17px; font-weight: 600">2 · $1,848 total</p></div>
+<div style="background: #121310; padding: 16px"><p style="margin: 0; font-family: 'JetBrains Mono', monospace; font-size: 12px; color: #A9A596">STYLE</p><p style="margin: 6px 0 0; font-size: 17px; font-weight: 600">Day trading the opens</p></div>
+<div style="background: #121310; padding: 16px"><p style="margin: 0; font-family: 'JetBrains Mono', monospace; font-size: 12px; color: #A9A596">MARKETS</p><p style="margin: 6px 0 0; font-size: 17px; font-weight: 600">NQ, ES, BTC, Gold, Silver</p></div>
+</div>
+</article>
+
+</div>
+</section>
+
+<!-- PROOF -->
+<section id="proof" style="max-width: 1320px; margin: 0 auto; padding: 120px 32px 0">
+<p style="margin: 0 0 20px; font-family: 'JetBrains Mono', monospace; font-size: 13px; color: #E3B04B">Receipts</p>
+<h2 style="margin: 0; font-family: 'Bricolage Grotesque', sans-serif; font-weight: 800; font-size: clamp(34px, 4.2vw, 58px); line-height: 1; letter-spacing: -0.04em; max-width: 900px">Verified payouts and passed evals, not promises.</h2>
+<div style="margin-top: 48px; display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 24px">
+<figure style="margin: 0; display: flex; flex-direction: column; gap: 12px">
+<img src="images/payouts-lifetime-santilopo.jpg" alt="Tradeify Futures lifetime total payouts certificate: $1,848 awarded to Santiago L., dated October 30, 2026" style="width: 100%; aspect-ratio: 1079 / 750; object-fit: cover; border-radius: 8px; border: 1px solid rgba(240,236,224,0.14); display: block">
+<figcaption style="font-family: 'JetBrains Mono', monospace; font-size: 12px; color: #A9A596">SANTILOPO · TRADEIFY FUTURES · $1,848 LIFETIME PAYOUTS (2 PAYOUTS)</figcaption>
+</figure>
+<figure style="margin: 0; display: flex; flex-direction: column; gap: 12px">
+<img src="images/evals-santilopo-lucid.jpg" alt="Three Lucid Trading evaluation certificates for LucidPro 25K accounts completed by Santilopo, dated October 3, 5 and 8, 2026" style="width: 100%; aspect-ratio: 1079 / 750; object-fit: cover; border-radius: 8px; border: 1px solid rgba(240,236,224,0.14); display: block; background: #050505">
+<figcaption style="font-family: 'JetBrains Mono', monospace; font-size: 12px; color: #A9A596">SANTILOPO · LUCID TRADING · 3 × $25K EVALS PASSED · OCT 3–8, 2026</figcaption>
+</figure>
+<figure style="margin: 0; display: flex; flex-direction: column; gap: 12px"><div style="aspect-ratio: 1079 / 750; border-radius: 8px; border: 1px dashed rgba(240,236,224,0.28); background: #121310; display: flex; align-items: center; justify-content: center; color: #A9A596; font-size: 14px; text-align: center; padding: 16px">[Huncho's payout certificates]</div><figcaption style="font-family: 'JetBrains Mono', monospace; font-size: 12px; color: #A9A596">ADD WHEN READY</figcaption></figure>
+</div>
+<p style="margin: 20px 0 0; font-size: 13px; line-height: 1.6; color: #A09C8D; max-width: 820px">Payouts shown are the mentors' own results and are not typical. They do not guarantee what you will earn.</p>
+</section>
+
+<!-- CURRICULUM -->
+<section id="curriculum" style="max-width: 1320px; margin: 0 auto; padding: 120px 32px 0">
+<p style="margin: 0 0 20px; font-family: 'JetBrains Mono', monospace; font-size: 13px; color: #E3B04B">02 — What you'll learn</p>
+<h2 style="margin: 0; font-family: 'Bricolage Grotesque', sans-serif; font-weight: 800; font-size: clamp(34px, 4.2vw, 58px); line-height: 1; letter-spacing: -0.04em; max-width: 900px">Six modules. Two strategies. One repeatable process.</h2>
+<ol style="margin: 48px 0 0; padding: 0; list-style: none; border-top: 1px solid rgba(240,236,224,0.14)">
+<li style="display: flex; flex-wrap: wrap; gap: 8px 40px; padding: 28px 0; border-bottom: 1px solid rgba(240,236,224,0.14); align-items: baseline"><span style="flex: 0 0 64px; font-family: 'JetBrains Mono', monospace; color: #E3B04B">01</span><h3 style="flex: 1 1 280px; margin: 0; font-family: 'Bricolage Grotesque', sans-serif; font-size: 26px; font-weight: 600; letter-spacing: -0.02em">Tools &amp; setup</h3><div style="flex: 2 1 380px; display: flex; flex-direction: column; gap: 14px"><p style="margin: 0; color: #BDB8A8; line-height: 1.6">The platforms we actually use, how each one works, how to set them up, and how the prop firms we recommend work: rules, payouts and what to watch out for.</p><div style="display: flex; flex-wrap: wrap; gap: 8px"><span style="font-family: 'JetBrains Mono', monospace; font-size: 12px; color: #DDD8C9; border: 1px solid rgba(240,236,224,0.22); border-radius: 3px; padding: 4px 9px">TradingView</span><span style="font-family: 'JetBrains Mono', monospace; font-size: 12px; color: #DDD8C9; border: 1px solid rgba(240,236,224,0.22); border-radius: 3px; padding: 4px 9px">TradeSea</span><span style="font-family: 'JetBrains Mono', monospace; font-size: 12px; color: #DDD8C9; border: 1px solid rgba(240,236,224,0.22); border-radius: 3px; padding: 4px 9px">Hyperliquid</span><span style="font-family: 'JetBrains Mono', monospace; font-size: 12px; color: #DDD8C9; border: 1px solid rgba(240,236,224,0.22); border-radius: 3px; padding: 4px 9px">Tradeify</span><span style="font-family: 'JetBrains Mono', monospace; font-size: 12px; color: #DDD8C9; border: 1px solid rgba(240,236,224,0.22); border-radius: 3px; padding: 4px 9px">Lucid Trading</span><span style="font-family: 'JetBrains Mono', monospace; font-size: 12px; color: #DDD8C9; border: 1px solid rgba(240,236,224,0.22); border-radius: 3px; padding: 4px 9px">Futures contracts &amp; tick values</span><span style="font-family: 'JetBrains Mono', monospace; font-size: 12px; color: #DDD8C9; border: 1px solid rgba(240,236,224,0.22); border-radius: 3px; padding: 4px 9px">Eval rules &amp; drawdown</span></div><p style="margin: 0; font-size: 13px; color: #A09C8D; line-height: 1.5">If you are outside the US, we recommend Hyperliquid. It is not available to US residents yet, so US traders should wait until it is. We only recommend firms we have personally traded with.</p></div></li>
+<li style="display: flex; flex-wrap: wrap; gap: 8px 40px; padding: 28px 0; border-bottom: 1px solid rgba(240,236,224,0.14); align-items: baseline"><span style="flex: 0 0 64px; font-family: 'JetBrains Mono', monospace; color: #E3B04B">02</span><h3 style="flex: 1 1 280px; margin: 0; font-family: 'Bricolage Grotesque', sans-serif; font-size: 26px; font-weight: 600; letter-spacing: -0.02em">How the market really moves</h3><div style="flex: 2 1 380px; display: flex; flex-direction: column; gap: 14px"><p style="margin: 0; color: #BDB8A8; line-height: 1.6">The foundation everything else is built on: how to read price, structure and liquidity, and when and why the market actually moves.</p><div style="display: flex; flex-wrap: wrap; gap: 8px"><span style="font-family: 'JetBrains Mono', monospace; font-size: 12px; color: #DDD8C9; border: 1px solid rgba(240,236,224,0.22); border-radius: 3px; padding: 4px 9px">Candlesticks</span><span style="font-family: 'JetBrains Mono', monospace; font-size: 12px; color: #DDD8C9; border: 1px solid rgba(240,236,224,0.22); border-radius: 3px; padding: 4px 9px">Highs &amp; lows</span><span style="font-family: 'JetBrains Mono', monospace; font-size: 12px; color: #DDD8C9; border: 1px solid rgba(240,236,224,0.22); border-radius: 3px; padding: 4px 9px">Trends</span><span style="font-family: 'JetBrains Mono', monospace; font-size: 12px; color: #DDD8C9; border: 1px solid rgba(240,236,224,0.22); border-radius: 3px; padding: 4px 9px">Liquidity</span><span style="font-family: 'JetBrains Mono', monospace; font-size: 12px; color: #DDD8C9; border: 1px solid rgba(240,236,224,0.22); border-radius: 3px; padding: 4px 9px">Imbalances</span><span style="font-family: 'JetBrains Mono', monospace; font-size: 12px; color: #DDD8C9; border: 1px solid rgba(240,236,224,0.22); border-radius: 3px; padding: 4px 9px">Inversion fair value gaps (IFVG)</span><span style="font-family: 'JetBrains Mono', monospace; font-size: 12px; color: #DDD8C9; border: 1px solid rgba(240,236,224,0.22); border-radius: 3px; padding: 4px 9px">Break of structure (BOS)</span><span style="font-family: 'JetBrains Mono', monospace; font-size: 12px; color: #DDD8C9; border: 1px solid rgba(240,236,224,0.22); border-radius: 3px; padding: 4px 9px">Microeconomics</span><span style="font-family: 'JetBrains Mono', monospace; font-size: 12px; color: #DDD8C9; border: 1px solid rgba(240,236,224,0.22); border-radius: 3px; padding: 4px 9px">Market ecology</span><span style="font-family: 'JetBrains Mono', monospace; font-size: 12px; color: #DDD8C9; border: 1px solid rgba(240,236,224,0.22); border-radius: 3px; padding: 4px 9px">Market conditions</span><span style="font-family: 'JetBrains Mono', monospace; font-size: 12px; color: #DDD8C9; border: 1px solid rgba(240,236,224,0.22); border-radius: 3px; padding: 4px 9px">Time asymmetry</span><span style="font-family: 'JetBrains Mono', monospace; font-size: 12px; color: #DDD8C9; border: 1px solid rgba(240,236,224,0.22); border-radius: 3px; padding: 4px 9px">Indicators</span></div></div></li>
+<li style="display: flex; flex-wrap: wrap; gap: 8px 40px; padding: 28px 0; border-bottom: 1px solid rgba(240,236,224,0.14); align-items: baseline"><span style="flex: 0 0 64px; font-family: 'JetBrains Mono', monospace; color: #E3B04B">03</span><h3 style="flex: 1 1 280px; margin: 0; font-family: 'Bricolage Grotesque', sans-serif; font-size: 26px; font-weight: 600; letter-spacing: -0.02em">Risk management &amp; psychology</h3><p style="flex: 2 1 380px; margin: 0; color: #BDB8A8; line-height: 1.6">Position sizing and daily rules so a single bad trade can never end your account, plus the mindset to follow them when emotions run high.</p></li>
+<li style="display: flex; flex-wrap: wrap; gap: 8px 40px; padding: 28px 0; border-bottom: 1px solid rgba(240,236,224,0.14); align-items: baseline"><span style="flex: 0 0 64px; font-family: 'JetBrains Mono', monospace; color: #E3B04B">04</span><h3 style="flex: 1 1 280px; margin: 0; font-family: 'Bricolage Grotesque', sans-serif; font-size: 26px; font-weight: 600; letter-spacing: -0.02em">Strategy 1: The eval strategy</h3><div style="flex: 2 1 380px; display: flex; flex-direction: column; gap: 14px"><p style="margin: 0; color: #BDB8A8; line-height: 1.6">Putting it all together: every confluence from the previous modules combined into one strategy built around prop firm rules, so you pass evals and get to payout without burning money on resets.</p><div style="display: flex; flex-wrap: wrap; gap: 8px"><span style="font-family: 'JetBrains Mono', monospace; font-size: 12px; color: #DDD8C9; border: 1px solid rgba(240,236,224,0.22); border-radius: 3px; padding: 4px 9px">Account types</span><span style="font-family: 'JetBrains Mono', monospace; font-size: 12px; color: #DDD8C9; border: 1px solid rgba(240,236,224,0.22); border-radius: 3px; padding: 4px 9px">Consistency rule</span><span style="font-family: 'JetBrains Mono', monospace; font-size: 12px; color: #DDD8C9; border: 1px solid rgba(240,236,224,0.22); border-radius: 3px; padding: 4px 9px">Account withdrawals</span><span style="font-family: 'JetBrains Mono', monospace; font-size: 12px; color: #DDD8C9; border: 1px solid rgba(240,236,224,0.22); border-radius: 3px; padding: 4px 9px">Daily withdrawals</span><span style="font-family: 'JetBrains Mono', monospace; font-size: 12px; color: #DDD8C9; border: 1px solid rgba(240,236,224,0.22); border-radius: 3px; padding: 4px 9px">Eval mindset</span></div></div></li>
+<li style="display: flex; flex-wrap: wrap; gap: 8px 40px; padding: 28px 0; border-bottom: 1px solid rgba(240,236,224,0.14); align-items: baseline"><span style="flex: 0 0 64px; font-family: 'JetBrains Mono', monospace; color: #E3B04B">05</span><h3 style="flex: 1 1 280px; margin: 0; font-family: 'Bricolage Grotesque', sans-serif; font-size: 26px; font-weight: 600; letter-spacing: -0.02em">Strategy 2: The live account strategy</h3><p style="flex: 2 1 380px; margin: 0; color: #BDB8A8; line-height: 1.6">How to trade your own capital, and what changes when there's no eval target to hit.</p></li>
+<li style="display: flex; flex-wrap: wrap; gap: 8px 40px; padding: 28px 0; border-bottom: 1px solid rgba(240,236,224,0.14); align-items: baseline"><span style="flex: 0 0 64px; font-family: 'JetBrains Mono', monospace; color: #E3B04B">06</span><h3 style="flex: 1 1 280px; margin: 0; font-family: 'Bricolage Grotesque', sans-serif; font-size: 26px; font-weight: 600; letter-spacing: -0.02em">Past lives &amp; trade breakdowns</h3><p style="flex: 2 1 380px; margin: 0; color: #BDB8A8; line-height: 1.6">Recorded live sessions and step-by-step breakdowns of real trades, wins and losses, so you see every concept from the course applied in real time.</p></li>
+</ol>
+</section>
+
+<!-- MORE THAN A COURSE -->
+<section id="community" style="max-width: 1320px; margin: 0 auto; padding: 120px 32px 0">
+<div style="border: 1px solid rgba(240,236,224,0.14); border-radius: 8px; background: #121310; padding: clamp(32px, 5vw, 72px); display: flex; flex-wrap: wrap; gap: 40px 72px">
+<div style="flex: 1 1 380px; min-width: 0">
+<p style="margin: 0 0 20px; font-family: 'JetBrains Mono', monospace; font-size: 13px; color: #E3B04B">03 — More than a course</p>
+<h2 style="margin: 0; font-family: 'Bricolage Grotesque', sans-serif; font-weight: 800; font-size: clamp(34px, 4.2vw, 58px); line-height: 1; letter-spacing: -0.04em">We don't sell you videos and disappear.</h2>
+</div>
+<div style="flex: 1 1 440px; min-width: 0; display: flex; flex-direction: column; gap: 22px">
+<p style="margin: 0; font-size: 18px; line-height: 1.7; color: #BDB8A8">When you join, we stay in contact with you and help you build, from your first eval to your first payout and beyond.</p>
+<p style="margin: 0; font-size: 18px; line-height: 1.7; color: #BDB8A8">This is the start of something bigger. The members who put in the work and don't quit will get the chance to be part of what we're building next.</p>
+</div>
+<div style="flex: 1 1 100%; border-top: 1px solid rgba(240,236,224,0.14); padding-top: 32px; display: flex; flex-wrap: wrap; gap: 20px 40px; align-items: center; justify-content: space-between">
+<div style="flex: 1 1 420px; min-width: 0">
+<p style="margin: 0 0 10px; font-family: 'JetBrains Mono', monospace; font-size: 13px; color: #E3B04B">● LIVE IN MARKET MOVERS (MM) · FREE TO JOIN</p>
+<p style="margin: 0; font-family: 'Bricolage Grotesque', sans-serif; font-size: 28px; font-weight: 800; letter-spacing: -0.03em; line-height: 1.15">Watch us trade the opens live, for free, before you spend a dollar.</p>
+</div>
+<a href="https://discord.com/invite/D5mgzZWaJ" style="text-decoration: none; background: #E3B04B; color: #14120C; font-weight: 600; padding: 15px 24px; border-radius: 4px; min-height: 52px; display: inline-flex; align-items: center">Join Market Movers free</a>
+</div>
+</div>
+</section>
+
+<!-- PRICING -->
+<section id="pricing" style="max-width: 1320px; margin: 0 auto; padding: 120px 32px 0">
+<p style="margin: 0 0 20px; font-family: 'JetBrains Mono', monospace; font-size: 13px; color: #E3B04B">04 — Enroll</p>
+<h2 style="margin: 0; font-family: 'Bricolage Grotesque', sans-serif; font-weight: 800; font-size: clamp(34px, 4.2vw, 58px); line-height: 1; letter-spacing: -0.04em">Get in at the founding price.</h2>
+<p style="margin: 20px 0 0; font-size: 18px; line-height: 1.7; color: #BDB8A8; max-width: 720px">The first 50 members lock in $300. After that, the price goes up to $400.</p>
+<div style="margin-top: 48px; display: grid; grid-template-columns: repeat(auto-fit, minmax(340px, 1fr)); gap: 24px">
+<article style="border-radius: 8px; border: 2px solid #E3B04B; background: #121310; padding: 36px; display: flex; flex-direction: column; gap: 22px">
+<div style="display: flex; justify-content: space-between; gap: 12px; flex-wrap: wrap"><p style="margin: 0; font-family: 'JetBrains Mono', monospace; font-size: 13px; color: #A9A596">MARKET MOVERS COURSE</p><p style="margin: 0; font-family: 'JetBrains Mono', monospace; font-size: 12px; background: #E3B04B; color: #14120C; padding: 4px 10px; border-radius: 3px">FIRST 50 MEMBERS</p></div>
+<p style="margin: 0; font-family: 'Bricolage Grotesque', sans-serif; font-size: 64px; font-weight: 800; letter-spacing: -0.04em; line-height: 1">$300</p>
+<p style="margin: 0; color: #BDB8A8">One payment, lifetime access. Founding price for the first 50 members only; then $400.</p>
+<ul style="margin: 0; padding: 0; list-style: none; display: flex; flex-direction: column; gap: 12px; color: #DDD8C9; line-height: 1.5; border-top: 1px solid rgba(240,236,224,0.12); padding-top: 22px">
+<li>✓ All six modules and checklists</li>
+<li>✓ The eval strategy and the live account strategy</li>
+<li>✓ Mentorship from Huncho and Santilopo: pick a main mentor, learn from both</li>
+<li>✓ English or Spanish (Spanish with Santilopo)</li>
+<li>✓ Past live sessions and trade breakdowns</li>
+<li>✓ Ongoing contact and support</li>
+<li>✓ Members-only channels in the Market Movers Discord</li>
+<li>✓ Future updates included</li>
+</ul>
+<div style="margin-top: auto; display: flex; flex-direction: column; gap: 10px"><a href="https://whop.com/market-movers-9d17/market-movers-huncho-santilopo" style="text-decoration: none; background: #E3B04B; color: #14120C; font-weight: 600; font-size: 16px; padding: 17px 26px; border-radius: 4px; min-height: 54px; display: flex; align-items: center; justify-content: center">Become a founding member · $300</a><p style="margin: 0; font-size: 14px; color: #A9A596; text-align: center">Pick your main mentor at checkout. You can learn from both.</p><p style="margin: 0; font-size: 13px; color: #A09C8D; text-align: center">All sales are final. All members sign our NDA at checkout. Course content is for members only.</p></div>
+</article>
+<article style="border-radius: 8px; border: 1px solid rgba(240,236,224,0.16); background: #0F100D; padding: 36px; display: flex; flex-direction: column; gap: 22px">
+<div style="display: flex; justify-content: space-between; gap: 12px; flex-wrap: wrap"><p style="margin: 0; font-family: 'JetBrains Mono', monospace; font-size: 13px; color: #A9A596">MARKET MOVERS LIVE</p><p style="margin: 0; font-family: 'JetBrains Mono', monospace; font-size: 12px; color: #A9A596">START HERE</p></div>
+<p style="margin: 0; font-family: 'Bricolage Grotesque', sans-serif; font-size: 64px; font-weight: 800; letter-spacing: -0.04em; line-height: 1">Free</p>
+<p style="margin: 0; color: #BDB8A8">Not ready yet? Watch how we trade first.</p>
+<ul style="margin: 0; padding: 0; list-style: none; display: flex; flex-direction: column; gap: 12px; color: #DDD8C9; line-height: 1.5; border-top: 1px solid rgba(240,236,224,0.12); padding-top: 22px">
+<li>✓ Live sessions at the opens</li>
+<li>✓ Watch real trades, wins and losses</li>
+<li>✓ Meet the community</li>
+</ul>
+<a href="https://discord.com/invite/D5mgzZWaJ" style="margin-top: auto; text-decoration: none; color: #F0ECE0; font-weight: 600; font-size: 16px; padding: 17px 26px; border-radius: 4px; border: 1px solid rgba(240,236,224,0.35); min-height: 54px; display: flex; align-items: center; justify-content: center">Join the Discord free</a>
+</article>
+</div>
+
+<div style="margin-top: 24px; border: 1px solid rgba(240,236,224,0.16); border-left-width: 1px; border-radius: 8px; padding: 22px 26px; background: #0F100D"><p style="margin: 0 0 6px; font-family: 'JetBrains Mono', monospace; font-size: 12px; color: #E3B04B">NO GUARANTEES</p><p style="margin: 0; color: #DDD8C9; line-height: 1.65; font-size: 16px">We do not guarantee that you will pass an evaluation or receive a payout. Your results are up to you and what you do with the strategy we teach. It has worked for us, and the receipts above show it, but your discipline, risk management and execution decide how it works for you.</p></div>
+
+<div id="military" style="margin-top: 24px; border-radius: 8px; border: 1px solid rgba(240,236,224,0.16); background: #0F100D; padding: 32px 36px; display: flex; flex-wrap: wrap; gap: 24px 56px">
+<div style="flex: 1 1 280px; min-width: 0">
+<p style="margin: 0 0 12px; font-family: 'JetBrains Mono', monospace; font-size: 13px; color: #E3B04B">MILITARY &amp; VETERANS</p>
+<h3 style="margin: 0; font-family: 'Bricolage Grotesque', sans-serif; font-size: 30px; font-weight: 800; letter-spacing: -0.03em; line-height: 1.1">Served? We've got you.</h3>
+</div>
+<div style="flex: 2 1 460px; min-width: 0; display: grid; grid-template-columns: repeat(auto-fit, minmax(220px, 1fr)); gap: 24px">
+<div><p style="margin: 0; font-size: 18px; font-weight: 600">Serving or just getting out</p><p style="margin: 8px 0 0; color: #BDB8A8; line-height: 1.6">25% off the course ($225 at the founding price). Open a ticket in our Discord with proof of service.</p></div>
+<div><p style="margin: 0; font-size: 18px; font-weight: 600">Discharged OTH</p><p style="margin: 8px 0 0; color: #BDB8A8; line-height: 1.6">Open a ticket in our Discord, tell us your story and what happened, with some proof, and you get the full course for $150.</p><p style="margin: 14px 0 0; color: #F0ECE0; line-height: 1.6; font-style: italic">“I know what it's like to leave the military on terms you didn't choose. Your discharge doesn't decide your future.” <span style="font-style: normal; color: #A9A596">Santilopo</span></p></div>
+</div>
+<a href="https://discord.com/invite/D5mgzZWaJ" style="flex: 1 1 100%; align-self: flex-start; max-width: 280px; text-decoration: none; color: #F0ECE0; font-weight: 600; padding: 15px 22px; border-radius: 4px; border: 1px solid rgba(240,236,224,0.35); min-height: 52px; display: flex; align-items: center; justify-content: center">Message us about the discount</a>
+</div>
+</section>
+
+<!-- FAQ -->
+<section id="faq" style="max-width: 1320px; margin: 0 auto; padding: 120px 32px 0; display: flex; flex-wrap: wrap; gap: 40px 72px">
+<div style="flex: 1 1 300px; min-width: 0">
+<p style="margin: 0 0 20px; font-family: 'JetBrains Mono', monospace; font-size: 13px; color: #E3B04B">05 — Questions</p>
+<h2 style="margin: 0; font-family: 'Bricolage Grotesque', sans-serif; font-weight: 800; font-size: clamp(34px, 4.2vw, 58px); line-height: 1; letter-spacing: -0.04em">Straight answers.</h2>
+<p style="margin: 20px 0 0; color: #BDB8A8; line-height: 1.6">Still unsure? <a href="https://discord.com/invite/D5mgzZWaJ">Send us a message</a>.</p>
+</div>
+<div style="flex: 2 1 560px; min-width: 0; border-top: 1px solid rgba(240,236,224,0.14)">
+<details class="faq" open>
+<summary><span class="faq-num">01</span><span class="faq-q">Is this financial advice?</span><span class="faq-icon" aria-hidden="true">+</span></summary>
+<p class="faq-a">No. We are not financial advisors. What we are is traders willing to sacrifice everything to reach our goals, and we teach what that has taught us. Everything in the course and on stream is education. You make your own decisions and you are responsible for your own trades.</p>
+</details>
+<details class="faq">
+<summary><span class="faq-num">02</span><span class="faq-q">Who will mentor me?</span><span class="faq-icon" aria-hidden="true">+</span></summary>
+<p class="faq-a">Both of us. When you join, you can pick Huncho or Santilopo as your main mentor, whoever you connect with more. Either way you get the full course and you can learn from and ask either of us anytime.</p>
+</details>
+<details class="faq">
+<summary><span class="faq-num">03</span><span class="faq-q">Is the course available in Spanish?</span><span class="faq-icon" aria-hidden="true">+</span></summary>
+<p class="faq-a">Yes. If you choose Santilopo as your main mentor, you can go through the course and mentorship in English or Spanish. ¿Prefieres aprender en español? Elige a Santilopo como tu mentor.</p>
+</details>
+<details class="faq">
+<summary><span class="faq-num">04</span><span class="faq-q">Do I need trading experience?</span><span class="faq-icon" aria-hidden="true">+</span></summary>
+<p class="faq-a">No. Module one sets up your tools and explains how futures and prop firms work, module two covers how the market moves, and module three is risk management and psychology. The strategies come after that.</p>
+</details>
+<details class="faq">
+<summary><span class="faq-num">05</span><span class="faq-q">What markets do you trade?</span><span class="faq-icon" aria-hidden="true">+</span></summary>
+<p class="faq-a">Index futures (NQ and ES, plus the micros MNQ and MES), Bitcoin, Gold and Silver.</p>
+</details>
+<details class="faq">
+<summary><span class="faq-num">06</span><span class="faq-q">Are the live sessions really free?</span><span class="faq-icon" aria-hidden="true">+</span></summary>
+<p class="faq-a">Yes, for now. Join Market Movers on Discord and watch us trade the opens before you decide anything.</p>
+</details>
+<details class="faq">
+<summary><span class="faq-num">07</span><span class="faq-q">How do I get access after I buy?</span><span class="faq-icon" aria-hidden="true">+</span></summary>
+<p class="faq-a">Checkout runs through Whop. Right after you pay, you get access to the course on Whop, and you can connect your Discord to unlock the members-only channels in Market Movers.</p>
+</details>
+<details class="faq">
+<summary><span class="faq-num">08</span><span class="faq-q">Do you guarantee I will pass or get a payout?</span><span class="faq-icon" aria-hidden="true">+</span></summary>
+<p class="faq-a">No. We do not guarantee that you will pass an evaluation or receive a payout. Your results are up to you and what you do with the strategy we teach. It has worked for us, but your discipline, risk management and execution decide how it works for you.</p>
+</details>
+<details class="faq">
+<summary><span class="faq-num">09</span><span class="faq-q">Can I copy your trades?</span><span class="faq-icon" aria-hidden="true">+</span></summary>
+<p class="faq-a">We do not recommend copying our trades. You should be here to learn, not to follow. We are not here to give signals, and we are not financial advisors.</p>
+</details>
+<details class="faq">
+<summary><span class="faq-num">10</span><span class="faq-q">Why do I have to sign an NDA?</span><span class="faq-icon" aria-hidden="true">+</span></summary>
+<p class="faq-a">To protect the course and the people who paid for it. Members agree not to share, record, resell or post any course content, including videos, strategies, checklists and private channels. Breaking the NDA means losing access with no refund, and we may take further action.</p>
+</details>
+<details class="faq">
+<summary><span class="faq-num">11</span><span class="faq-q">What is your refund policy?</span><span class="faq-icon" aria-hidden="true">+</span></summary>
+<p class="faq-a">All sales are final. Because you get instant access to digital course content, we do not offer refunds. Watch the free live sessions in Market Movers first to make sure the course is right for you.</p>
+</details>
+</div>
+</section>
+
+<!-- FINAL CTA -->
+<section style="padding: 120px 0 0">
+<div style="background: #E3B04B; color: #14120C">
+<div style="max-width: 1320px; margin: 0 auto; padding: 80px 32px; display: flex; flex-wrap: wrap; gap: 32px; align-items: center; justify-content: space-between">
+<h2 style="margin: 0; flex: 1 1 520px; font-family: 'Bricolage Grotesque', sans-serif; font-weight: 800; font-size: clamp(36px, 5vw, 72px); line-height: 0.98; letter-spacing: -0.045em">Move with the market. Move with us.</h2>
+<div style="display: flex; flex-wrap: wrap; gap: 12px">
+<a href="#pricing" style="text-decoration: none; background: #14120C; color: #F0ECE0; font-weight: 600; font-size: 16px; padding: 17px 28px; border-radius: 4px; min-height: 54px; display: inline-flex; align-items: center">Join · $300</a>
+<a href="#military" style="text-decoration: none; color: #14120C; font-weight: 600; font-size: 16px; padding: 17px 28px; border-radius: 4px; border: 2px solid #14120C; min-height: 54px; display: inline-flex; align-items: center">Military? See your discount</a>
+</div>
+</div>
+</div>
+</section>
+
+</main>
+
+<!-- FOOTER -->
+<footer style="max-width: 1320px; margin: 0 auto; padding: 64px 32px 56px; display: flex; flex-direction: column; gap: 28px">
+<div style="display: flex; flex-wrap: wrap; justify-content: space-between; gap: 20px; align-items: center">
+<span style="font-family: 'Bricolage Grotesque', sans-serif; font-weight: 800; font-size: 20px">Market Movers</span>
+<div style="display: flex; flex-wrap: wrap; gap: 8px 24px; font-size: 15px">
+<a href="https://discord.com/invite/D5mgzZWaJ" style="color: #CFCABB">Discord</a>
+<a href="https://www.instagram.com/mrktmver/" style="color: #CFCABB">Huncho on Instagram</a>
+<a href="https://www.youtube.com/@xcom2santi" style="color: #CFCABB">Santilopo on YouTube</a>
+<a href="https://www.instagram.com/xcom2santi/" style="color: #CFCABB">Santilopo on Instagram</a>
+<a href="#terms" style="color: #CFCABB">Terms</a>
+<a href="#privacy" style="color: #CFCABB">Privacy</a>
+<a href="#faq" style="color: #CFCABB">Refund policy</a>
+<a href="https://discord.com/invite/D5mgzZWaJ" style="color: #CFCABB">Contact</a>
+</div>
+</div>
+<p style="margin: 0; font-size: 13px; line-height: 1.7; color: #A09C8D; max-width: 980px; border-top: 1px solid rgba(240,236,224,0.1); padding-top: 24px">Risk disclosure: Trading futures involves substantial risk of loss and is not suitable for every investor. The mentors' results, including earnings, payouts and trades shown on livestreams, are not typical and do not guarantee that you will achieve similar results. Past performance does not guarantee future results. All content is for educational purposes only and is not financial or investment advice. © 2026 Market Movers.</p>
+</footer>
+
+</div>
+</body>
+</html>
