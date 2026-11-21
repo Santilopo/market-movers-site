@@ -44,7 +44,7 @@ If both Santilopo and his friend will edit it, put the folder in a free **GitHub
 
 ## Links used on the site
 - Checkout (Whop): https://whop.com/market-movers-9d17/market-movers-huncho-santilopo
-- Discord: https://discord.com/invite/D5mgzZWaJ
+- Discord: https://discord.gg/qyHsN29hP5
 - Santilopo: https://www.youtube.com/@xcom2santi · https://www.instagram.com/xcom2santi/
 - Huncho: https://www.instagram.com/mrktmver/
 
