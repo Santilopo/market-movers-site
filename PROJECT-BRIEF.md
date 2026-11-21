@@ -18,7 +18,7 @@ This file summarizes everything decided so far for the Market Movers futures tra
 | Trading style | Day trading every session open (Asia, London, New York); BTC 24/7 |
 | Languages | English, and Spanish with Santilopo |
 | Checkout | Whop: https://whop.com/market-movers-9d17/market-movers-huncho-santilopo |
-| Community | Market Movers Discord (free live sessions): https://discord.com/invite/D5mgzZWaJ |
+| Community | Market Movers Discord (free live sessions): https://discord.gg/qyHsN29hP5 |
 | Socials | Santilopo: YouTube https://www.youtube.com/@xcom2santi · Instagram https://www.instagram.com/xcom2santi/ · Huncho: Instagram https://www.instagram.com/mrktmver/ |
 
 ## 2. The offer
